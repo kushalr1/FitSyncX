@@ -5,7 +5,7 @@ import { getToken } from './auth';
 import 'core-js/stable';
 import 'regenerator-runtime/runtime';
 
-const API_BASE_URL = process.env.REACT_APP_API_BASE_URL;
+const API_BASE_URL = process.env.REACT_APP_API_BASE_URL || 'https://your-api.com';
 
 // Create Axios Instance
 const api = axios.create({
