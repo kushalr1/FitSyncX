@@ -1,0 +1,72 @@
+/* src/styles/AttendanceHistory.css */
+
+.attendance-container {
+    text-align: center;
+    padding: 40px;
+    background: white;
+    min-height: 100vh;
+  }
+  
+  .attendance-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: 600;
+  }
+  
+  .table-wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    overflow-x: auto;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .attendance-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1rem;
+  }
+  
+  .attendance-table th {
+    background: #f4f4f4;
+    padding: 12px;
+    text-align: center;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .attendance-table td {
+    padding: 12px;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .attendance-table tr:last-child td {
+    border-bottom: none;
+  }
+  
+  .status-badge {
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    display: inline-block;
+  }
+  
+  .present {
+    background: #e6f4ea;
+    color: #2e7d32;
+  }
+  
+  .absent {
+    background: #ffebee;
+    color: #d32f2f;
+  }
+  
+  .late {
+    background: #fff3e0;
+    color: #f57c00;
+  }
+  

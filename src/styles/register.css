@@ -1,0 +1,233 @@
+/* register.css */
+.register-content {
+    width: 100%;
+  }
+  
+  /* Logo */
+  .logo-container {
+    margin: 0 auto 1.5rem;
+    width: 64px;
+    height: 64px;
+    background-color: #2563eb;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.2);
+  }
+  
+  .logo-icon {
+    width: 40px;
+    height: 40px;
+    color: white;
+  }
+  
+  /* Form Styles */
+  .register-form {
+    margin-bottom: 1.5rem;
+  }
+  
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  .input-row {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.25rem;
+  }
+  
+  .input-row .input-group {
+    flex: 1;
+    margin-bottom: 0;
+  }
+  
+  .input-group {
+    margin-bottom: 1.25rem;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #4b5563;
+  }
+  
+  .input-group input {
+    display: block;
+    width: 100%;
+    padding: 0.75rem 1rem;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 0.875rem;
+    transition: all 0.2s ease;
+    background-color: #f9fafb;
+  }
+  
+  .input-group input:focus {
+    outline: none;
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+    background-color: #fff;
+  }
+  
+  .input-group input::placeholder {
+    color: #9ca3af;
+  }
+  
+  .input-hint {
+    font-size: 0.75rem;
+    color: #6b7280;
+    margin-top: 0.5rem;
+  }
+  
+  /* Terms Container */
+  .terms-container {
+    margin-bottom: 1.5rem;
+  }
+  
+  .remember-me {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .remember-me input {
+    width: 1rem;
+    height: 1rem;
+    margin-right: 0.5rem;
+    margin-top: 0.2rem;
+    accent-color: #2563eb;
+  }
+  
+  .remember-me label {
+    font-size: 0.875rem;
+    color: #4b5563;
+    line-height: 1.4;
+  }
+  
+  .terms-link {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s;
+  }
+  
+  .terms-link:hover {
+    color: #1d4ed8;
+    text-decoration: underline;
+  }
+  
+  /* Button */
+  .button-container {
+    margin-bottom: 1.5rem;
+  }
+  
+  .register-button {
+    display: block;
+    width: 100%;
+    padding: 0.875rem 1rem;
+    background: linear-gradient(to right, #2563eb, #3b82f6);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 0.9375rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.2);
+  }
+  
+  .register-button:hover {
+    background: linear-gradient(to right, #1d4ed8, #2563eb);
+    transform: translateY(-1px);
+    box-shadow: 0 6px 16px rgba(37, 99, 235, 0.25);
+  }
+  
+  .register-button:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 8px rgba(37, 99, 235, 0.2);
+  }
+  
+  /* Divider */
+  .divider {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 1.5rem 0;
+  }
+  
+  .divider-line {
+    flex-grow: 1;
+    height: 1px;
+    background-color: #e5e7eb;
+  }
+  
+  .divider-text {
+    padding: 0 0.75rem;
+    font-size: 0.875rem;
+    color: #6b7280;
+    background-color: white;
+  }
+  
+  /* Social Login */
+  .social-login {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .social-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3rem;
+    height: 3rem;
+    background-color: white;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    transition: all 0.2s ease;
+  }
+  
+  .social-button:hover {
+    background-color: #f9fafb;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  }
+  
+  .social-icon {
+    width: 1.25rem;
+    height: 1.25rem;
+    color: #6b7280;
+  }
+  
+  /* Login Link */
+  .login-link {
+    text-align: center;
+    margin-top: 1rem;
+  }
+  
+  .login-link p {
+    font-size: 0.875rem;
+    color: #6b7280;
+  }
+  
+  .login-link a {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .login-link a:hover {
+    color: #1d4ed8;
+    text-decoration: underline;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 480px) {
+    .input-row {
+      flex-direction: column;
+      gap: 0;
+    }
+}
